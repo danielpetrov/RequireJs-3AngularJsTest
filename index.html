@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="app/css/app.css">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" ng-cloak>
+
+    <div navigation-directive>
+    </div>
+    <div ng-controller="HomeController">
+    </div>
+    <div data-ng-view>
+    </div>
+    <div id="element">Element</div>
+</div>
+
+<script>
+       console.log( $ ); // O
+</script>
+
+<script data-main="app/main.js" src="node_modules/requirejs/require.js"></script>
+
+</body>
+
+</html>
